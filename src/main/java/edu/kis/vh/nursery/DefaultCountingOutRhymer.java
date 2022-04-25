@@ -7,7 +7,7 @@ public class DefaultCountingOutRhymer {
     private final int[] numbers = new int[max];
 
 
-    public int total = -reverse;
+    public int total = reverse;
 
     public void countIn(int in) {
         if (!isFull())
@@ -24,13 +24,13 @@ public class DefaultCountingOutRhymer {
 
     protected int peekaboo() {
         if (callCheck())
-            return reverse;
+            return -1;
         return numbers[total];
     }
 
     public int countOut() {
         if (callCheck())
-            return reverse;
+            return -1;
         return numbers[total--];
     }
 
