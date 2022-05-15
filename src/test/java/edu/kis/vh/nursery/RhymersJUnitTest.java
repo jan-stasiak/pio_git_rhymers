@@ -2,7 +2,7 @@ package edu.kis.vh.nursery;
 
 import org.junit.Assert;
 import org.junit.Test;
-
+//program przeszedł walidacje - testy i progrma nie wymadają poprawy
 public class RhymersJUnitTest {
 
 	@Test
